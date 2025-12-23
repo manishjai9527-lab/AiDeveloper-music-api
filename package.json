@@ -1,0 +1,24 @@
+{
+  "name": "jiosaavn-wrapper-api",
+  "version": "1.0.0",
+  "description": "JioSaavn Wrapper API for Vercel Deployment",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.2",
+    "node-cache": "^5.1.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["jiosaavn", "music", "api", "wrapper", "vercel"],
+  "author": "Your Name",
+  "license": "MIT"
+}
